@@ -1,12 +1,9 @@
-# Bet365 Scraper
+# Betting Website Scraper
 
 This is a Python script to grab data for betting odds from the site https://bet365.com/ using Selenium.
 
-## Why Selenium?
+This project was done to improve my proficiency in Selenium and to provide an insight on how betting and its information can be used is upto the user's discretion.
 
-I would have preferred to use something like BeautifulSoup, but Bet365 has always been my go-to site for sportsbetting, and as far as I can tell there isn't a way to link directly to a market. For example, there is nothing along the lines of https://bet365.com/basketball/futures/nba/mvp as a way to get to the market for the NBA's Most Valuable Player. So instead, using Selenium we navigate there in Firefox from the home page.
-
-## How to use
 
 The script uses geckodriver for Selenium. The path it expects to find it is 'C:\Program Files\geckodriver\geckodriver.exe'.
 
